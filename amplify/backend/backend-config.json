@@ -1,4 +1,20 @@
 {
+  "api": {
+    "jiboapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "post"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "jibodf7eddff": {
       "customAuth": false,
@@ -27,6 +43,13 @@
       "service": "Cognito"
     }
   },
+  "function": {
+    "post": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "providerPlugin": "awscloudformation",
@@ -35,6 +58,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_post_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "post"
+        }
+      ]
+    },
+    "AMPLIFY_function_post_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "post"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {

@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-jibo-dev-93250-unauthRole",
       "StackName": "amplify-jibo-dev-93250",
       "StackId": "arn:aws:cloudformation:us-east-1:089370838833:stack/amplify-jibo-dev-93250/76267e20-cd08-11ed-9855-0a37923d9d19",
-      "AmplifyAppId": "d2q3619jjz0r54"
+      "AmplifyAppId": "d2q3619jjz0r54",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-jibo-dev-93250-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
@@ -20,6 +21,15 @@
           "appId": "d2q3619jjz0r54",
           "type": "manual"
         }
+      },
+      "function": {
+        "post": {
+          "deploymentBucketName": "amplify-jibo-dev-93250-deployment",
+          "s3Key": "amplify-builds/post-5a70776a582f35547445-build.zip"
+        }
+      },
+      "api": {
+        "jiboapi": {}
       }
     }
   }
