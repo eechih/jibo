@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jibo-dev-93250-authRole",
+      "UnauthRoleArn": "arn:aws:iam::089370838833:role/amplify-jibo-dev-93250-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::089370838833:role/amplify-jibo-dev-93250-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-jibo-dev-93250-deployment",
+      "UnauthRoleName": "amplify-jibo-dev-93250-unauthRole",
+      "StackName": "amplify-jibo-dev-93250",
+      "StackId": "arn:aws:cloudformation:us-east-1:089370838833:stack/amplify-jibo-dev-93250/76267e20-cd08-11ed-9855-0a37923d9d19",
+      "AmplifyAppId": "d2q3619jjz0r54"
+    }
+  }
+}
