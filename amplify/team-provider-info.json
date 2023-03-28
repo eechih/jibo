@@ -10,6 +10,11 @@
       "StackName": "amplify-jibo-dev-93250",
       "StackId": "arn:aws:cloudformation:us-east-1:089370838833:stack/amplify-jibo-dev-93250/76267e20-cd08-11ed-9855-0a37923d9d19",
       "AmplifyAppId": "d2q3619jjz0r54"
+    },
+    "categories": {
+      "auth": {
+        "jibodf7eddff": {}
+      }
     }
   }
 }

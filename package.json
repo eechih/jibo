@@ -6,19 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier .",
+    "format": "npm run prettier -- --write"
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^4.4.1",
+    "aws-amplify": "^5.0.22",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
     "@types/node": "18.15.10",
     "@types/react": "18.0.30",
     "@types/react-dom": "18.0.11",
-    "aws-amplify": "^5.0.22",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "prettier": "^2.8.7",
     "typescript": "5.0.2"
   }
 }
